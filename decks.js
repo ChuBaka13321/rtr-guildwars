@@ -5,16 +5,16 @@
 
 // Reference: skeleton of each deck object
 {
-	name: 'name of deck',
-	version: 'version name',
-	cards: [
-		{number: 1,  name: 'card name'},
-		{number: 2,  name: 'card name'},
-		{number: 10, name: 'card name'}
-	],
-	sideboard: [
-		{number: 3,  name: 'card name'}
-	]
+  name: 'name of deck',
+  version: 'version name',
+  cards: [
+	{number: 1,  name: 'card name'},
+	{number: 2,  name: 'card name'},
+	{number: 10, name: 'card name'}
+  ],
+  sideboard: [
+	{number: 3,  name: 'card name'}
+  ]
 }
 
 // Azorius
@@ -23,37 +23,37 @@ var deckAzorius = {
   version: 'original',
   cards: [
     // Creatures (23)
-    {number: 1, name: 'Archon of the Triumvirate'},
-    {number: 2, name: 'Azorius Arrester'},
-    {number: 1, name: 'Azorius Justiciar'},
-    {number: 2, name: 'Battleflight Eagle'},
-    {number: 2, name: 'Bazaar Krovod'},
-    {number: 2, name: 'Concordia Pegasus'},
-    {number: 1, name: 'Lyev Skyknight'},
-    {number: 1, name: 'New Prahv Guildmage'},
-    {number: 3, name: 'Silvercoat Lion'},
-    {number: 1, name: 'Skyline Predator'},
-    {number: 1, name: 'Soulsworn Spirit'},
-    {number: 2, name: 'Stealer of Secrets'},
-    {number: 2, name: 'Trained Caracal'},
-    {number: 2, name: 'Vassal Soul'},
+    {number: 1,  name: 'Archon of the Triumvirate'},
+    {number: 2,  name: 'Azorius Arrester'},
+    {number: 1,  name: 'Azorius Justiciar'},
+    {number: 2,  name: 'Battleflight Eagle'},
+    {number: 2,  name: 'Bazaar Krovod'},
+    {number: 2,  name: 'Concordia Pegasus'},
+    {number: 1,  name: 'Lyev Skyknight'},
+    {number: 1,  name: 'New Prahv Guildmage'},
+    {number: 3,  name: 'Silvercoat Lion'},
+    {number: 1,  name: 'Skyline Predator'},
+    {number: 1,  name: 'Soulsworn Spirit'},
+    {number: 2,  name: 'Stealer of Secrets'},
+    {number: 2,  name: 'Trained Caracal'},
+    {number: 2,  name: 'Vassal Soul'},
     // Instants (5)
-    {number: 1, name: 'Angel\'s Mercy'},
-    {number: 1, name: 'Dramatic Rescue'},
-    {number: 2, name: 'Show of Valor'},
-    {number: 1, name: 'Swift Justice'},
+    {number: 1,  name: 'Angel\'s Mercy'},
+    {number: 1,  name: 'Dramatic Rescue'},
+    {number: 2,  name: 'Show of Valor'},
+    {number: 1,  name: 'Swift Justice'},
     //Sorceries (1)
-    {number: 1, name: 'Inaction Injunction'},
+    {number: 1,  name: 'Inaction Injunction'},
     // Artifacts (2)
-    {number: 2, name: 'Azorius Keyrune'},
-    {number: 1, name: 'Tablet of the Guilds'},
+    {number: 2,  name: 'Azorius Keyrune'},
+    {number: 1,  name: 'Tablet of the Guilds'},
     // Enchantments (3)
-    {number: 2, name: 'Arrest'},
-    {number: 1, name: 'Righteous Authority'},
+    {number: 2,  name: 'Arrest'},
+    {number: 1,  name: 'Righteous Authority'},
     // Lands (25)
     {number: 12, name: 'Island'},
     {number: 12, name: 'Plains'},
-    {number: 1, name: 'Azorius Guildgate'}
+    {number: 1,  name: 'Azorius Guildgate'}
   ],
   sideboard: [
 
@@ -94,7 +94,7 @@ var deckBoros = {
     {number: 1,  name: 'Mugging'},
     // Artifacts (2)
     {number: 2,  name: 'Boros Keyrune'},
-    / Lands (25)
+    // Lands (25)
     {number: 1,  name: 'Boros Guildgate'},
     {number: 12, name: 'Mountain'},
     {number: 12, name: 'Plains'}
