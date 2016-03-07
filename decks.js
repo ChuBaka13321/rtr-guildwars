@@ -4,18 +4,18 @@
 // By RMS
 
 // Reference: skeleton of each deck object
-{
-  name: 'name of deck',
-  version: 'version name',
-  cards: [
-	{number: 1,  name: 'card name'},
-	{number: 2,  name: 'card name'},
-	{number: 10, name: 'card name'}
-  ],
-  sideboard: [
-	{number: 3,  name: 'card name'}
-  ]
-}
+// {
+//   name: 'name of deck',
+//   version: 'version name',
+//   cards: [
+// 	{number: 1,  name: 'card name'},
+// 	{number: 2,  name: 'card name'},
+// 	{number: 10, name: 'card name'}
+//   ],
+//   sideboard: [
+// 	{number: 3,  name: 'card name'}
+//   ]
+// }
 
 // Azorius
 var deckAzorius = {
@@ -453,3 +453,23 @@ var deckSimic = {
   sideboard: [
   ]
 }
+
+var myFunction = function(){
+    // var node = document.createTextNode(deckAzorius.name);
+    for(var i = 0; i < deckAzorius.cards.length; i++) {
+      for(var k = 0; k < deckAzorius.cards[i].number; k++) {
+        var para = document.createElement("p");
+        var node = document.createTextNode(deckAzorius.cards[i].name);
+        para.appendChild(node);
+        var deck = document.getElementById("deck1");
+        deck.appendChild(para);
+      }
+    }
+
+    // deck.appendChild(deckAzorius)
+}
+
+
+
+
+
